@@ -1,14 +1,21 @@
-# blackjack-cli
+# AES-enryptor-rust
 
-A blackjack clie game written in rust. Just for fun and learning rust.
+Encrypts files symmetrically with AES.
 
+
+
+## Warning!!
+
+This was written for practice and fun only. 
+
+This program could damage your files irreversibly.
 ## Run it
 
-You need to install Rustup and rust stable
+Only tested on Linux.
 
-```bash
-cargo run
-```
+ ```bash
+ cargo run --release -- -e test.txt
+ ```
 
 
 
